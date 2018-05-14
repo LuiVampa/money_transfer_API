@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: default
+  jpa:
+      hibernate:
+        ddl-auto: update
+  datasource:
+    driverClassName: org.hsqldb.jdbc.JDBCDriver
+    url: jdbc:hsqldb:mem:grebenkov
+    username: sa
+    password: 1

@@ -11,7 +11,11 @@ repositories {
 
 dependencies {
     compile 'org.springframework.boot:spring-boot:2.0.2.RELEASE',
-            'org.springframework.boot:spring-boot-starter-web:2.0.2.RELEASE'
+            'org.springframework.boot:spring-boot-starter-web:2.0.2.RELEASE',
+            'org.springframework.boot:spring-boot-starter-data-jpa:2.0.2.RELEASE',
+            'org.projectlombok:lombok:1.16.20',
+            'org.hsqldb:hsqldb:2.4.0',
+            'org.springframework.boot:spring-boot-starter-test:2.0.2.RELEASE'
 
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
